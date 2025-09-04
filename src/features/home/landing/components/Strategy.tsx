@@ -1,6 +1,6 @@
-import StrategyImage from "../../../assets/strategyIMG.webp"
-import StrategyImage2 from "../../../assets/strategyIMG2.webp"
-import StrategyImage3 from "../../../assets/strategyIMG3.webp"
+import StrategyImage from "../../../../assets/strategyIMG.webp"
+import StrategyImage2 from "../../../../assets/strategyIMG2.webp"
+import StrategyImage3 from "../../../../assets/strategyIMG3.webp"
 
 import { useState } from 'react'
 

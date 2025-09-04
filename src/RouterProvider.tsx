@@ -1,26 +1,22 @@
-import { createBrowserRouter ,Navigate } from 'react-router-dom'
-import AppShell from './AppShell/AppShell'
-import BusinessLandingPage from './features/landing/BusinessLandingPage'
+import { createBrowserRouter } from 'react-router-dom'
+import AboutUs from './features/about-us/AboutUs'
+import HomePage from './features/home/landing/BusinessLandingPage'
+import Footer from './features/home/landing/components/Footer'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <AppShell />, // Replace with your main app component
-    children: [
-      {
-      index: true,
-     element: <Navigate to="/business" replace />
-    },
-    {
-      path:'business',
-      element: <BusinessLandingPage/>
-    }
-
-  ]
-	}, 
-  // {
-  //   path: '*',
-  //   element: <div>404 Not Found</div>
-  // }
+		element: <Footer />,
+		children: [
+			{
+				path: '/business',
+				element: <HomePage />,
+			},
+			{
+				path: 'business/about-us',
+				element: <AboutUs />,
+			},
+		],
+	},
 ])
 export default router

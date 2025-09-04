@@ -24,3 +24,9 @@
   scrollbar-width: thin;
   scrollbar-color: #a78bfa #f9f9fb; /* thumb track */
 }
+
+
+@theme {
+  --color-primary: #321270;
+  --color-bg: #F4F6FB;
+}

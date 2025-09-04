@@ -1,9 +1,9 @@
-import Trustpilot from '../../../assets/trustpilot.webp'
-import AWS from '../../../assets/aws.webp'
-import Spotify from '../../../assets/spotify.webp'
-import Brandlogo from '../../../assets/brandlogo.webp'
-import Forbes from '../../../assets/forbes.webp'
-import { CustomButton } from './custom-btn'
+import { CustomButton } from '../../../../components/custom-btn'
+import AWS from '../../../../assets/aws.webp'
+import Brandlogo from '../../../../assets/brandlogo.webp'
+import Forbes from '../../../../assets/forbes.webp'
+import Spotify from '../../../../assets/spotify.webp'
+import Trustpilot from '../../../../assets/trustpilot.webp'
 
 const Partners = () => {
 	return (
@@ -29,10 +29,13 @@ const Partners = () => {
 				<div className='block md:hidden text-4xl leading-14 font-semibold text-[#321270] text-center'>
 					Plan for big expenses, manage profits, vendors, and much more
 				</div>
-        {/* desc */}
-        <div className='text-lg text-zinc-400 text-center'>We work with organizations of all sizes, from early start-ups to global brands, in <br /> the private, public, and social sector.</div>
-        {/* btn */}
-        <CustomButton title='Get Started' onClick={() => {}} />
+				{/* desc */}
+				<div className='text-lg text-zinc-400 text-center'>
+					We work with organizations of all sizes, from early start-ups to
+					global brands, in <br /> the private, public, and social sector.
+				</div>
+				{/* btn */}
+				<CustomButton title='Get Started' onClick={() => {}} />
 			</div>
 		</div>
 	)

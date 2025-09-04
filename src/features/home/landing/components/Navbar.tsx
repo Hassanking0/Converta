@@ -1,9 +1,11 @@
 import { ChevronDown, Search, ShoppingCart, Menu, X } from 'lucide-react'
 import { useState } from 'react'
-import logo from '../assets/logo.webp'
-import { NavLink } from 'react-router-dom'
+import logo from '../../../../assets/logo.webp'
+import {  NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router'
 
 const Navbar = () => {
+	const navigate = useNavigate()
 	const [openDropdown, setOpenDropdown] = useState<string | null>(null)
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)
 
@@ -63,7 +65,7 @@ const Navbar = () => {
 							)}
 						</li>
 
-						<li className='cursor-pointer hover:text-blue-500'>About us</li>
+						<li onClick={()=>{navigate('/business/about-us')}} className='cursor-pointer hover:text-blue-500'>About us</li>
 						
 						<li
 							onMouseEnter={() => setOpenDropdown('pages')}

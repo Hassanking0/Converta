@@ -1,7 +1,7 @@
 import { ArrowRight, BriefcaseBusiness } from 'lucide-react'
-import Account from '../../../assets/account.svg'
-import Goal from '../../../assets/goals.svg'
-import RoadMap from '../../../assets/roadmap.svg'
+import Account from '../../../../assets/account.svg'
+import Goal from '../../../../assets/goals.svg'
+import RoadMap from '../../../../assets/roadmap.svg'
 
 const Goals = () => {
 	return (

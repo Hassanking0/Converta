@@ -1,8 +1,8 @@
-import Rocket from '../../../assets/rocket.svg'
-import Tv from '../../../assets/tv.svg'
-import Trophy from '../../../assets/trophy.svg'
-import MobileView from '../../../assets/mobileview.png'
-import MobileViewCard from '../../../assets/mobileviewCard.png'
+import Rocket from '../../../../assets/rocket.svg'
+import Tv from '../../../../assets/tv.svg'
+import Trophy from '../../../../assets/trophy.svg'
+import MobileView from '../../../../assets/mobileview.png'
+import MobileViewCard from '../../../../assets/mobileviewCard.png'
 
 const Main = () => {
 	return (
@@ -16,7 +16,7 @@ const Main = () => {
 				<h2 className='block md:hidden leading-14 text-center text-4xl'>
 					Make your business <br /> future-proof to <br />  anticipate the <br /> challenges to
 					be
-				</h2>
+				</h2> 
 			</div>
 			<div className='boxes flex flex-col flex-wrap md:flex-row md:flex-nowrap gap-8 mx-12 md:mx-24 mt-24 pb-20 border-b border-gray-300'>
 				<div className='box1 flex flex-col gap-5 w-80 md:w-120'>

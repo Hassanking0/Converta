@@ -1,8 +1,11 @@
 import { Facebook, Twitter, Youtube } from 'lucide-react'
-import Logo from '../../../assets/logo-white.webp'
+import Logo from '../../../../assets/logo-white.webp'
+import { Outlet } from 'react-router-dom'
 
 const Footer = () => {
 	return (
+		<div>
+		<Outlet/>
 		<div className='relative w-full bg-[#12032F] h-290 md:h-175 lg:h-130'>
 			{/* gradient */}
 			<div className='ml-30 h-110 w-120 flex items-center'>
@@ -66,6 +69,7 @@ const Footer = () => {
 					</div>
 				</footer>
 			</div>
+		</div>
 		</div>
 	)
 }

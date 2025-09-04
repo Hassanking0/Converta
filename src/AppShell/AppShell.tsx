@@ -1,13 +1,13 @@
 import { Outlet } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import Navbar from '../features/home/landing/components/Navbar'
 
 const AppShell = () => {
 	return (
 		<div className='w-full overflow-x-hidden'>
 			<Navbar />
 			<div>
-                <Outlet />
-            </div>
+				<Outlet />
+			</div>
 		</div>
 	)
 }

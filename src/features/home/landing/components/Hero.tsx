@@ -1,11 +1,11 @@
-import AccountCard from '../components/AccountCard'
-import Card from '../components/Card'
-import { CustomButton } from '../components/custom-btn'
+import { CustomButton } from '../../../../components/custom-btn'
+import AccountCard from './AccountCard'
+import Card from './Card'
 const Hero = () => {
 	return (
-		<div className='hero px-2  lg:px-17 flex gap-16 w-full h-120 lg:h-160 bg-[#F4F6FB]'>
+		<div className='hero px-2 lg:px-17 flex gap-16 w-full h-120 lg:h-160 bg-bg'>
 			<div className='left py-8 md:mx-auto lg:pl-16 flex flex-col gap-6 justify-center h-120 lg:h-160 text-center lg:text-start'>
-				<div className='title text-4xl lg:text-7xl font-bold text-[#321270]'>
+				<div className='title text-4xl lg:text-7xl font-bold text-primary'>
 					Designing your <br /> next{' '}
 					<span className='bg-gradient-to-r from-[#857FFF] via-[#BB7BFF] to-pink-300 bg-clip-text text-transparent'>
 						business.
@@ -24,12 +24,12 @@ const Hero = () => {
 				</div>
 			</div>
 			<div className='hidden lg:block'>
-			<div className='right h-160 flex items-center justify-center'>
-				<div className='relative circle bg-linear-to-br blur-3xl from-[#F2A296] via-[#E68B56] to-[#AD60A9] to-40% border border-amber-400 w-130 h-130 rounded-full flex items-center justify-center'></div>
-				<div className='absolute cards flex gap-4 z-100'>
-					<Card /> <AccountCard />
+				<div className='right h-160 flex items-center justify-center'>
+					<div className='relative circle bg-linear-to-br blur-3xl from-[#F2A296] via-[#E68B56] to-[#AD60A9] to-40% border border-amber-400 w-130 h-130 rounded-full flex items-center justify-center'></div>
+					<div className='absolute cards flex gap-4 z-100'>
+						<Card /> <AccountCard />
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 	)
