@@ -12,6 +12,7 @@ const Main = () => {
 					Make your business future-proof <br /> to anticipate the challenges to
 					be
 				</h2>
+				
 				<h2 className='block md:hidden leading-14 text-center text-4xl'>
 					Make your business <br /> future-proof to <br />  anticipate the <br /> challenges to
 					be
@@ -67,7 +68,7 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-			<div className='details w-full h-185 flex flex-col md:flex-row items-center justify-center gap-10 mt-14'>
+			<div className='details w-full h-185 flex flex-col lg:flex-row items-center justify-center gap-10 mt-14 md:mt-48'>
 				<div className='relative img mt-30 md:mt-0'>
 					<img className='w-90 h-90 md:w-145 md:h-150' src={MobileView} />
                     <img className='absolute -bottom-10 md:bottom-0' src={MobileViewCard} />

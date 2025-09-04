@@ -3,17 +3,17 @@ import Logo from '../../../assets/logo-white.webp'
 
 const Footer = () => {
 	return (
-		<div className='relative w-full bg-[#12032F] h-290 md:h-130'>
+		<div className='relative w-full bg-[#12032F] h-290 md:h-175 lg:h-130'>
 			{/* gradient */}
 			<div className='ml-30 h-110 w-120 flex items-center'>
-				<div className='hidden md:block h-100 w-120 blur-3xl bg-[#31096A] rounded-full'></div>
+				<div className='hidden lg:block h-100 w-120 blur-3xl bg-[#31096A] rounded-full'></div>
 			</div>
 
 			<div className='absolute left-0 top-0 flex flex-wrap gap-16 flex-col md:flex-row justify-between w-full z-110 py-18 px-8  md:py-20 md:px-30'>
 				{/* left-side */}
 				<div>
 					<img src={Logo} />
-					{/* desc */}
+					{/* desc */} 
 					<div className='text-zinc-300 text-sm font-light mt-6'>
 						Creative-powered to fuel your growth goals. We build world-class
 						digital <br /> products, software and branding.
@@ -50,7 +50,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				{/* gradient */}
-				<div className='hidden md:block absolute right-0 top-10 blur-3xl h-90 w-100 bg-[#412855] rounded-full'></div>
+				<div className='hidden lg:block absolute right-0 top-10 blur-3xl h-90 w-100 bg-[#412855] rounded-full'></div>
 				<footer className='w-[80vw] border-t border-zinc-600 z-110 flex justify-between'>
 					<div className='text-zinc-400 text-xs mt-2'>
 						© 2023 Converta Theme. Codeless, LLC. San Francisco, California.

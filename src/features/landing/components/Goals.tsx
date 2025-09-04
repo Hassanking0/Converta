@@ -5,7 +5,7 @@ import RoadMap from '../../../assets/roadmap.svg'
 
 const Goals = () => {
 	return (
-		<div className='goals py-18 px-10 md:px-17 w-full h-full md:h-210 bg-[#F4F6FB]'>
+		<div className='goals py-18 px-10 md:px-17 w-full h-full lg:h-210 bg-[#F4F6FB]'>
 			<div className='header text-center w-full space-y-4 mx-auto'>
 				<div className='title text-4xl md:text-5xl leading-12 md:leading-14 font-semibold text-[#321270]'>
 					Develop your next business today
@@ -19,7 +19,7 @@ const Goals = () => {
 					generation of services and experiences, ready for the market.
 				</div>
 			</div>
-			<div className='main w-full mt-18 flex justify-evenly flex-col md:flex-row  gap-16'>
+			<div className='main w-full mt-18 flex justify-evenly flex-col lg:flex-row  gap-16'>
 				<div className='left'>
 					<div className='boxes flex flex-col items-center w-full md:flex-row md:w-160 md:flex-wrap gap-6'>
 						<div className='box1 hover:-translate-y-2 transition-all duration-300 pb-18 cursor-pointer shadow-md bg-white rounded-2xl flex items-center gap-6 flex-col py-12 w-70'>
@@ -65,10 +65,10 @@ const Goals = () => {
 				<div className='right my-auto'>
 					<div className='flex flex-col gap-8 w-full'>
 					{/* title */}
-						<div className='hidden md:block text-[#321270] text-4xl font-semibold leading-12'>
+						<div className='hidden lg:block text-[#321270] text-4xl font-semibold leading-12'>
 						Strategies that get you on <br /> the path to success
 					</div>
-						<div className='block md:hidden text-[#321270] text-4xl font-semibold leading-12'>
+						<div className='block lg:hidden text-[#321270] text-4xl font-semibold leading-12'>
 						Strategies that get you on the path to success
 					</div>
 					{/* desc */}

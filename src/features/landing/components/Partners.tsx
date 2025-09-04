@@ -9,11 +9,11 @@ const Partners = () => {
 	return (
 		<div className='w-full min-h-180 flex gap-8 flex-col items-center'>
 			{/* title */}
-			<div className='text-[#321270] text-center mx-4 md:mx-0 text-2xl font-semibold mt-38'>
+			<div className='text-[#321270] text-center mx-4 lg:mx-0 text-2xl font-semibold mt-38'>
 				Trusted by nearly 5000+ customers & startups
 			</div>
 			{/* logos */}
-			<div className='flex w-full flex-wrap justify-center md:flex-row items-center gap-26 mt-10 pb-28 border-b border-zinc-300'>
+			<div className='flex w-full flex-wrap justify-center lg:flex-row items-center gap-26 md:gap-20 lg:gap-26 mt-10 pb-28 border-b border-zinc-300'>
 				<img src={Trustpilot} />
 				<img src={AWS} />
 				<img src={Spotify} />

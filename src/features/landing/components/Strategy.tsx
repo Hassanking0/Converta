@@ -36,25 +36,25 @@ const Strategy = () => {
 	}
 
 	return (
-		<div className='strategy border-b border-zinc-300 py-18 px-10 md:px-17 mt-60 md:mt-0 w-full min-h-160 bg-[#F4F6FB]'>
+		<div className='strategy border-b border-zinc-300 py-18 px-10 md:px-17 mt-60 lg:mt-0 w-full min-h-160 bg-[#F4F6FB]'>
 			<div className='header text-center w-full space-y-2 mx-auto'>
 				<div className='subTitle text-blue-500 text-xs'>
 					HELPING ENTREPRENEURS MAKE MORE MONEY
 				</div>
-				<div className='hidden md:block title text-5xl leading-14 font-semibold text-[#321270]'>
+				<div className='hidden lg:block title text-5xl leading-14 font-semibold text-[#321270]'>
 					Unlimited cash back, zero fees, <br /> no credit check
 				</div>
-				<div className='block md:block title text-3xl leading-10 font-semibold text-[#321270]'>
+				<div className='block lg:hidden title text-3xl leading-10 font-semibold text-[#321270]'>
 					Unlimited cash back, zero fees, no credit check
 				</div>
 			</div>
-			<div className='main w-full mt-18 flex flex-col md:flex-row gap-18'>
+			<div className='main w-full mt-18 flex flex-col lg:flex-row gap-18'>
 				<div className='left'>
 					<div className='boxes space-y-8'>
 						{/* Box 1 */}
 						<div
 							onClick={() => handleImageChange(StrategyImage)}
-							className={`box1 space-y-6 w-full md:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-100 hover:shadow-xl hover:scale-105 ${
+							className={`box1 space-y-6 w-full lg:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-100 hover:shadow-xl hover:scale-105 ${
 								activeImage === StrategyImage
 									? 'bg-white shadow-xl scale-105'
 									: ''
@@ -72,7 +72,7 @@ const Strategy = () => {
 						{/* Box 2 */}
 						<div
 							onClick={() => handleImageChange(StrategyImage2)}
-							className={`box2 space-y-6 w-full md:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 ${
+							className={`box2 space-y-6 w-full lg:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 ${
 								activeImage === StrategyImage2 ? 'bg-white shadow-xl' : ''
 							}`}
 						>
@@ -88,7 +88,7 @@ const Strategy = () => {
 						{/* Box 3 */}
 						<div
 							onClick={() => handleImageChange(StrategyImage3)}
-							className={`box3 space-y-6 w-full md:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 ${
+							className={`box3 space-y-6 w-full lg:w-120 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105 ${
 								activeImage === StrategyImage3 ? 'bg-white shadow-lg' : ''
 							}`}
 						>
@@ -105,7 +105,7 @@ const Strategy = () => {
 
 				{/* RIGHT SIDE */}
 				<div className='right'>
-					<div className='box w-full h-100 md:w-180 md:h-140 border-6 border-black rounded overflow-hidden relative'>
+					<div className='box w-full h-100 lg:w-180 lg:h-140 border-6 border-black rounded overflow-hidden relative'>
 						<img
 							src={activeImage}
 							className={`w-full h-full object-cover transition-all duration-700 ease-in-out transform ${
