@@ -68,7 +68,7 @@ const Main = () => {
 					</div>
 				</div>
 			</div>
-			<div className='details w-full h-185 flex flex-col lg:flex-row items-center justify-center gap-10 mt-14 md:mt-48'>
+			<div className='details h-185 flex flex-col lg:flex-row items-center justify-center gap-10 mt-14 md:mt-48'>
 				<div className='relative img mt-30 md:mt-0'>
 					<img className='w-90 h-90 md:w-145 md:h-150' src={MobileView} />
                     <img className='absolute -bottom-10 md:bottom-0' src={MobileViewCard} />
@@ -80,7 +80,7 @@ const Main = () => {
 					<div className='block md:hidden title text-4xl font-semibold text-[#321270]'>
 						We’re building business <br /> for  your digital <br /> economy
 					</div>
-                    <div className="desc text-zinc-400">We are building business, banking products and services to support the next generation of entrepreneurs. The world as we know it is no longer the same, and changes now occur in days and months, not years. Get started!</div>
+                    <div className="desc w-[90vw] md:w-full text-zinc-400">We are building business, banking products and services to support the next generation of entrepreneurs. The world as we know it is no longer the same, and changes now occur in days and months, not years. Get started!</div>
                     <div className="infos flex gap-12 mt-4">	
                         <div className="1 space-y-2">
                             <div className="numbers text-6xl text-green-400 font-semibold">120k</div>
