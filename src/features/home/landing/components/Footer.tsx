@@ -5,8 +5,10 @@ import { Outlet } from 'react-router-dom'
 const Footer = () => {
 	return (
 		<div>
+			<div>
 		<Outlet/>
-		<div className='relative w-full bg-[#12032F] h-290 md:h-175 lg:h-130'>
+		</div>
+		<div className='relative overflow-hidden w-full bg-[#12032F] h-290 md:h-175 lg:h-130'>
 			{/* gradient */}
 			<div className='ml-30 h-110 w-120 flex items-center'>
 				<div className='hidden lg:block h-100 w-120 blur-3xl bg-[#31096A] rounded-full'></div>
