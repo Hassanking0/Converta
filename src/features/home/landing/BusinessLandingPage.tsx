@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 
 const landingPage = () => {
 	return (
-		<div>
+		<div className='overflow-x-hidden'>
 			<Navbar />
 			<Hero />
 			<Main />

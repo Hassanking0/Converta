@@ -231,7 +231,7 @@ const Navbar = () => {
 
 						{/* About us */}
 						<div className='pb-4'>
-							<div className='text-zinc-600 hover:text-blue-500 cursor-pointer'>About us</div>
+							<div onClick={()=>{navigate('/business/about-us')}} className='text-zinc-600 hover:text-blue-500 cursor-pointer'>About us</div>
 						</div>
 
 						{/* Pages */}
